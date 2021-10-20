@@ -1,3 +1,3 @@
 # WebDesignCapstone-UniversityMichigan
 
-Proyect
+Proyect Boostrap JQuery Ajax ValidatorW3C Responsive ModulePatters DOM Responsive
