@@ -42,7 +42,7 @@ export const swiper = (function () {
   let insertMultipleImgHtml = (html,sectorName) => {
     let link_img ="";
     for (let i = 1; i < 10; i++) {
-      link_img = `/img/swiper/${sectorName}/photos (${i}).jpg`;
+      link_img = `img/swiper/${sectorName}/photos (${i}).jpg`;
       html += `<div class="swiper-slide"> <img  src="${link_img}"/> </div>`;
     }
 
