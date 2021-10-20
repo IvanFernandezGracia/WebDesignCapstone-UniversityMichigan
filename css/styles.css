@@ -1,0 +1,334 @@
+/* Navbar Bootstrap */
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+#navbarCollapse {
+  background-color: transparent;
+}
+
+.nav-item {
+  /* margin: 1% 2%;*/
+  padding-left: 12px;
+}
+
+.nav-link {
+  border-bottom: solid 5px white;
+  border-radius: 0px 0px 20px 20px;
+  /* background-color: white; */
+  color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link .btn-valdivia {
+  background-color: rgba(151, 0, 0, 0.9);
+}
+
+.nav-link:hover {
+  background-color: #131516;
+  border-radius: 20px 20px 20px 20px;
+  color: black
+}
+
+.navbar-toggler {
+  background-color: white;
+  color: black;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  color: black;
+  background-image: url("/img/icons/down-chevron.png");
+}
+
+/*HOME*/
+
+#titleHome {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.navbar-brand {
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* Carousel */
+
+.carousel-inner {
+  height: 35vh;
+}
+
+.carousel-item {
+  height: auto;
+}
+
+.carousel-item img {
+  position: absolute;
+  width: 100%;
+}
+
+.carousel-indicators {
+  top: 5%;
+  bottom: auto;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+
+/* Gallery Place */
+
+.marketing {
+  position: relative;
+}
+
+.marketing img {
+  width: 75%;
+  margin: 10% auto 0 auto;
+  border: groove 1em white
+}
+
+.marketing .card {
+  width: 100%;
+  margin: 0 auto 10% auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white
+}
+
+.marketing .card a {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: black;
+  color: white;
+  border: dashed 3px;
+  font-weight: bold;
+}
+
+.marketing .card a:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-color: black;
+  color: black;
+  border: dashed 3px;
+  font-weight: bold;
+}
+
+#mapGoogleRios .row {
+  height: 60vh;
+  margin-bottom: 1%;
+}
+
+/*Swiper */
+.swiper-container {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  height: 25vh;
+  width:auto;
+}
+.swiper-slide img {
+  display: block;
+  height:25vh;
+}
+
+/* ----- ----- ----- ----- ----- */
+
+/* ----- ----- FOOTER ----- ----- */
+
+/* ----- ----- ----- ----- ----- */
+
+footer .redes-sociales {
+  /* background: #F50073; */
+  /* background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgb(255, 255, 255, 0) 33%, rgb(245, 0, 115, 0) 61%, rgba(255, 255, 255, 1) 100%), linear-gradient(to top, #F50073 0%, #F50073 33%, #F50073 71%, rgba(255, 255, 255, 1) 100%); */
+  padding: 0px 0;
+}
+
+footer .redes-sociales {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .redes-sociales a {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  display: block;
+  margin: 10px;
+  border-radius: 10%;
+  width: 70px;
+  height: 60px;
+}
+
+footer .redes-sociales .github {
+  background: #000000;
+}
+
+footer .redes-sociales .instagram {
+  background: #833ab4;
+}
+
+footer .redes-sociales .linkedin {
+  background: #0077b5;
+}
+
+footer .redes-sociales .whatapp {
+  background: #25d366;
+}
+
+footer .redes-sociales .gmail {
+  background: #dd4b39;
+}
+
+.fa-gmail {
+  content: url('assets/images/gmail.svg');
+  height: 1em;
+  width: auto;
+}
+
+.wrapper {
+  padding-bottom: 20px;
+}
+
+.divider {
+  position: relative;
+  margin-top: 20px;
+  height: 1px;
+}
+
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, rgb(48, 49, 51), transparent);
+}
+
+.div-arrow-down:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -7px;
+  left: calc(50% - 7px);
+  width: 14px;
+  height: 14px;
+  transform: rotate(45deg);
+  background-color: white;
+  border-bottom: 1px solid rgb(48, 49, 51);
+  border-right: 1px solid rgb(48, 49, 51);
+}
+
+.div-tab-down:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: calc(50% - 10px);
+  width: 20px;
+  height: 14px;
+  background-color: white;
+  border-bottom: 1px solid rgb(48, 49, 51);
+  border-left: 1px solid rgb(48, 49, 51);
+  border-right: 1px solid rgb(48, 49, 51);
+  border-radius: 0 0 8px 8px;
+}
+
+.div-stopper:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -6px;
+  left: calc(50% - 7px);
+  width: 14px;
+  height: 12px;
+  background-color: white;
+  border-left: 1px solid rgb(48, 49, 51);
+  border-right: 1px solid rgb(48, 49, 51);
+}
+
+.div-dot:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -9px;
+  left: calc(50% - 9px);
+  width: 18px;
+  height: 18px;
+  background-color: goldenrod;
+  border: 1px solid rgb(48, 49, 51);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
+}
+
+#listBottom {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#listBottom a {
+  background-color: #212529;
+  color: white;
+  padding: 1em;
+  margin: 0.6em;
+  text-decoration: none;
+  border-radius: 0.5em;
+  font-weight: bold;
+  max-width: 30%;
+  text-align: center;
+  font-size: 0.4em;
+  border:solid 1px #212529
+}
+
+#listBottom a:hover {
+  background-color: white;
+  color: #212529;
+}
+
+
+
+@media screen and (min-width:768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+  .marketing {
+    position: relative;
+    top: -12vh;
+  }
+  .carousel-inner {
+    height: 40vh
+  }
+  #mapGoogleRios .row {
+    height: 40vh;
+  }
+  .swiper-container {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width:auto;
+  }
+  .swiper-slide img {
+    display: block;
+    height:40vh;
+  }
+}

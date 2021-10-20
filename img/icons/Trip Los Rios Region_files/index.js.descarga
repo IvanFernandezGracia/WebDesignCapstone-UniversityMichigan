@@ -1,0 +1,22 @@
+import { carousel } from "./home/carousel.js";
+import { galleryPlace } from "./home/gallery-place.js";
+import { mapsGoogle } from "./home/mapsGoogle.js";
+import { domFunctions } from "./dom/dom.js";
+
+var carouselLink = "component/carousel-landscapes.html";
+var galleryPlaceLink = "component/gallery-place.html";
+var MapsGoogleLink = "component/mapsGoogle.html";
+
+document.addEventListener("DOMContentLoaded", function (event) {
+  // Insert Carousel into tag Main
+  domFunctions.insertHtmlLoading("#main-content", "myCarousel");
+  $ajaxUtils.sendGetRequest(carouselLink, carousel.insertCarousel, false);
+  // Insert Gallery Place into tag Main
+  domFunctions.insertHtmlLoading("#main-content", "myGalleryPlace");
+  $ajaxUtils.sendGetRequest(galleryPlaceLink, galleryPlace.insertGalleryPlace, false);
+  // Insert Maps Google Rios Region, Chile
+  domFunctions.insertHtmlLoading("#main-content", "mapsGoogleRios");
+  $ajaxUtils.sendGetRequest(MapsGoogleLink, mapsGoogle.insertMapsGoogle, false);
+
+
+});
